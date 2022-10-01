@@ -1,4 +1,0 @@
-HelloTest.BasicAssertions 1 0
-test_case_name.test_name 2 0.00199971
----
-HelloTest.BasicAssertions

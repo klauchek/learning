@@ -1,5 +1,0 @@
-if(EXISTS "/home/mash/Рабочий стол/Code/learning/test_project/build/lib/test/tests_runner[1]_tests.cmake")
-  include("/home/mash/Рабочий стол/Code/learning/test_project/build/lib/test/tests_runner[1]_tests.cmake")
-else()
-  add_test(tests_runner_NOT_BUILT tests_runner_NOT_BUILT)
-endif()

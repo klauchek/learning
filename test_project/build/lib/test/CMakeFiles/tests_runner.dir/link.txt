@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/tests_runner.dir/runner.cpp.o CMakeFiles/tests_runner.dir/test_first.cpp.o CMakeFiles/tests_runner.dir/test_second.cpp.o -o tests_runner  ../libgtest_main.a ../libgtest.a -lpthread 

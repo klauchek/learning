@@ -1,5 +1,0 @@
-add_test([=[HelloTest.BasicAssertions]=]  [==[/home/mash/Рабочий стол/Code/learning/test_project/build/lib/test/tests_runner]==] [==[--gtest_filter=HelloTest.BasicAssertions]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[HelloTest.BasicAssertions]=]  PROPERTIES WORKING_DIRECTORY [==[/home/mash/Рабочий стол/Code/learning/test_project/build/lib/test]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-add_test([=[test_case_name.test_name]=]  [==[/home/mash/Рабочий стол/Code/learning/test_project/build/lib/test/tests_runner]==] [==[--gtest_filter=test_case_name.test_name]==] --gtest_also_run_disabled_tests)
-set_tests_properties([=[test_case_name.test_name]=]  PROPERTIES WORKING_DIRECTORY [==[/home/mash/Рабочий стол/Code/learning/test_project/build/lib/test]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
-set(  tests_runner_TESTS HelloTest.BasicAssertions test_case_name.test_name)
